@@ -19,13 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-/**
- * {@code BookController} exposes book API.
- * <p/>
- *
- * @author Indra Basak
- * @since 11/28/17
- */
 @Component
 @Api(value = "Book API")
 @Path("/books")

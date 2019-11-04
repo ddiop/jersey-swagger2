@@ -40,8 +40,7 @@ public class JerseyConfiguration extends ResourceConfig {
         config.setTitle("Spring, Jersey, and Swagger Example");
         config.setVersion("1.0.0");
         config.setBasePath("/");
-        config.setResourcePackage("com.basaki");
-        config.setScan(true);
+        config.setResourcePackage(dcom.diop    config.setScan(true);
     }
 }
 ```

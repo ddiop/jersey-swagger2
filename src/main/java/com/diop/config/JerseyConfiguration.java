@@ -10,14 +10,7 @@ import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * {@code JerseyConfiguration} configures Glassfish Jersey server with Spring
- * Boot.
- * <p/>
- *
- * @author Indra Basak
- * @since 11/28/17
- */
+
 @Configuration
 public class JerseyConfiguration extends ResourceConfig {
 
@@ -36,7 +29,7 @@ public class JerseyConfiguration extends ResourceConfig {
         config.setTitle("Spring, Jersey, and Swagger Example");
         config.setVersion("1.0.0");
         config.setBasePath("/");
-        config.setResourcePackage("com.basaki");
+        config.setResourcePackage("com.diop");
         config.setScan(true);
     }
 }
