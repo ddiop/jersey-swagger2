@@ -154,7 +154,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.basaki.Application</mainClass>
+                    <mainClass>com.diop.Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>

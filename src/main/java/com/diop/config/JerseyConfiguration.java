@@ -1,6 +1,6 @@
-package com.basaki.config;
+package com.diop.config;
 
-import com.basaki.controller.BookController;
+import com.diop.controller.BookController;
 import io.swagger.jaxrs.config.BeanConfig;
 import io.swagger.jaxrs.listing.ApiListingResource;
 import io.swagger.jaxrs.listing.SwaggerSerializers;

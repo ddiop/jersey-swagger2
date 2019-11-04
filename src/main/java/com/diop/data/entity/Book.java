@@ -1,4 +1,4 @@
-package com.basaki.data.entity;
+package com.diop.data.entity;
 
 import java.io.Serializable;
 import java.util.UUID;
@@ -12,13 +12,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
 
-/**
- * {@code Book} represents a book entity.
- * <p/>
- *
- * @author Indra Basak
- * @since 11/28/17
- */
+
 @Entity
 @Table(name = "book")
 @Data

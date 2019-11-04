@@ -1,4 +1,4 @@
-package com.basaki.config;
+package com.diop.config;
 
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;

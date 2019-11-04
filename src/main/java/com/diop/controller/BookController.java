@@ -1,8 +1,8 @@
-package com.basaki.controller;
+package com.diop.controller;
 
-import com.basaki.data.entity.Book;
-import com.basaki.model.BookRequest;
-import com.basaki.service.BookService;
+import com.diop.data.entity.Book;
+import com.diop.model.BookRequest;
+import com.diop.service.BookService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
